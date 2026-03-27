@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: black;
+  color: white;
+}
+
+.nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.dark {
+  background: black;
+  color: white;
+  height: 100vh;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+}
